@@ -1,0 +1,140 @@
+/** reset **/
+
+body {
+	font-family: helvetica;
+	font-size: small;
+	padding: 0;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h2, h3, h4 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul.flat,
+ul.flat li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.flat li {
+	display: inline;
+}
+
+pre {
+	background: #a0c3de;
+	background: #a0c1e7;
+	background: #e1e1e1;
+	border: 1px solid #a0b3ce;
+	color: #334488;
+	margin: 1em 2em;
+	padding: 4px 8px;
+}
+
+li.code {
+	line-height: 2em;
+}
+
+/** sections **/
+
+div#hd {
+	background: #333;
+	color: #e1e1e1;
+}
+
+div#hd h1 a {
+	color: #e1e1e1;
+}
+
+div#hd,
+div#nav,
+div#content,
+div#sidebar,
+div#ft {
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	padding: 10px 20px;
+}
+
+div#nav {
+	background: #a0c1e7;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+div#ft {
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0 20px;
+}
+
+div#content {
+	padding-top: 2em;
+}
+
+div#ft {
+	font-size: .8em;
+}
+
+/** by id **/
+
+div#nav a {
+	color: #fff;
+}
+
+div#related {
+	margin-top: 5em;
+}
+
+/** by classes **/
+
+p.byline {
+	font-style: oblique;
+}
+
+div.callout {
+	border-left: 7px solid #333;	
+	padding: 10px;
+}
+
+div.post {
+	margin-bottom: 2em;
+}
+
+div.post p.summary {
+	font-style: oblique;
+}
+
+div.post div.subtitle {
+	font-style: oblique;
+}
+
+div.post div.content {
+	margin: 1em 0;	
+}
+
+div.post ul.categories li {
+	font-size: .8em;
+	color: #aaa;
+}
+
+div.post h2.title {
+	color: #a0c1e7;
+	color: #334488;
+}
+
+div.post div.subtitle {
+	color: #bbb;
+}
