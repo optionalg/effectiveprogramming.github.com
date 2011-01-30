@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="en" />
+	<title>{{ page.title }}</title>
+	<meta name="author" content="Luther Baker" />
+    <link rel="stylesheet" href="/css/desktop.css" type="text/css" media="only screen and (min-width: 481px)"/>
+	<link rel="stylesheet" href="/css/iphone.css" type="text/css" media="only screen and (max-width: 480px)" />
+    {% include analytics.html %}
+  </head>
+  <body>
+	<div id="container">
+		<div id="hd">
+			<h1><a href="/index.html">Effective Programming</a></h1>
+			<p class="byline">A reference site for software developers</p>
+		</div>
+		<div id="nav">
+			<ul class="flat">
+				<li><a href="/index.html">Home</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			{{ content }}
+		</div>
+		<div id="sidebar">
+		</div>
+		<div id="footer">
+		</div>
+      </div>
+    </div>
+    <div id="ft">
+		<div style="text-align: right">
+			<div style="float: left">&copy; 2011 Effective Programming :: Luther Baker</div>
+			<a href="/atom.xml"><img src="/images/feed-icon-14x14.png" height="14" width="14" style="border: 0"></a>
+		</div>
+    </div>
+  </body>
+</html>

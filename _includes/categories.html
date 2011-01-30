@@ -1,0 +1,7 @@
+<div class="cats">&#x2f;&#x2f;
+	{% capture href %}{% endcapture %}
+	{% for cat in post.categories %}
+	{% capture href %}{{ href }}{{cat}}/{% endcapture %}
+	<!-- a href="/{{ href }}index.html" -->{{ cat }}<!-- /a -->
+	{% endfor %}
+</div>
