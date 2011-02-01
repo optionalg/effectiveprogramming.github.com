@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+h2.single {
+	border-bottom: 1px dotted ;
+	color: #334488
+}
+
 h2, h3, h4 {
 	font-weight: normal;
 }
@@ -38,9 +43,10 @@ ul.flat li {
 pre {
 	background: #a0c3de;
 	background: #a0c1e7;
-	background: #e1e1e1;
+	background: #fffeee;
 	border: 1px solid #a0b3ce;
 	color: #334488;
+	line-height: 1.5em;
 	margin: 1em 2em;
 	padding: 4px 8px;
 }

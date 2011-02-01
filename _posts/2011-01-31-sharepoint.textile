@@ -1,0 +1,14 @@
+---
+layout: post
+title: Sharepoint Unveiled
+summary: A smattering of Sharepoint information
+---
+h3. Shareplus
+* "SharePlus":http://www.slideshare.net/southlabs/share-pluss-ipad-client-for-sharepoint
+
+h3. Stack Overflow
+* "Sharepoint API: How to upload files to Sharepoint doc library from ASN.net":http://stackoverflow.com/questions/279429/sharepoint-api-how-to-upload-files-to-sharepoint-doc-library-from-asp-net-web-a
+
+h3. Misc
+* "Diving into Sharepoint Services 3.0":http://www.sharepointproconnections.com/article/sharepoint-development/Diving-Into-the-Windows-SharePoint-Services-3-0-API.aspx
+* "Deep Dive Sharepoing 2007":http://vspug.com/smc750/2007/09/25/deep-dive-sharepoint-2007-object-model/
